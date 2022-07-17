@@ -6,6 +6,7 @@
 - Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
 
 ## Linear Regression of Predict MPG
+<img src="/support/del01_lineregression.png" width="500">
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 Vehicle weight(0.0776), Spoiler angle(0.3069) and AWD(0.1852) all provided a non-random amount of variance to the mpg values in the dataset.
 
@@ -19,13 +20,26 @@ Vehicle weight(0.0776), Spoiler angle(0.3069) and AWD(0.1852) all provided a non
 ## Summary Statistics on Suspension Coils
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
+<img src="/support/del02_totalSummary.png" width="500">
+<img src="/support/del02_lotSummary.png" width="500">
 
 
 
 ## T-Tests on Suspension Coils
+<img src="/support/del03_tTestAll.png" width="500">
+
 p-value of all lots combined is barely above the significance level at 0.06028
+
+<img src="/support/del03tTestLot1.png" width="500">
+
 p-value of Lot 1 is is above the signifigance level at 1
+
+<img src="/support/del03tTestLot2.png" width="500">
+
 p-value of lot 2 if above the signifigance level at 0.6072
+
+<img src="/support/del03tTestLot3.png" width="500">
+
 p-value of Lot 3 is below the signifigance level at 0.04168
 
 
